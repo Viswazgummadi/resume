@@ -41,10 +41,10 @@ const Footer = () => {
         <p className="text-text-secondary text-sm">
           © {new Date().getFullYear()} {personalInfo.name}. All rights reserved.
         </p>
-        <p className="text-xs text-gray-600 mt-2">
+        {/* <p className="text-xs text-gray-600 mt-2">
           Built with React & Tailwind CSS. Designed with{" "}
           <span className="font-merienda text-accent">love</span>.
-        </p>
+        </p> */}
       </div>
     </footer>
   );
