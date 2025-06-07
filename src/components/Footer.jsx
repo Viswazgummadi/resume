@@ -32,7 +32,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={social.name}
-              className="text-text-secondary hover:text-accent transition duration-300 transform hover:scale-125"
+              className="text-text-secondary hover:text-accent transition-all duration-300 transform hover:scale-125 hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]"
             >
               <social.icon size={24} />
             </a>
