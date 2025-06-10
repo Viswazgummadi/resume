@@ -12,7 +12,7 @@ export const personalInfo = {
   shortName: "Viswaz G",
   title: "IITDH, CSE (22-26)",
   logo: "/logo.png",
-  profilePic: "/profile-pic.jpg",
+  profilePic: "public/profile-pic.jpg",
   cv: "/resume-example.pdf",
   socials: [
     {
