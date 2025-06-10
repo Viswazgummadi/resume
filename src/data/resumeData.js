@@ -11,9 +11,9 @@ export const personalInfo = {
   name: "Viswaz Gummadi",
   shortName: "Viswaz G",
   title: "IITDH, CSE (22-26)",
-  logo: "/logo.png",
+  logo: import.meta.env.BASE_URL + "/logo.png",
   profilePic: import.meta.env.BASE_URL + "/profile-pic.jpg",
-  cv: "/resume-example.pdf",
+  cv: import.meta.env.BASE_URL + "/resume-example.pdf",
   socials: [
     {
       name: "LinkedIn",
@@ -62,11 +62,15 @@ export const navLinks = [
 ];
 
 export const aboutData = {
-  aboutPic: "/about-pic.png",
+  aboutPic: import.meta.env.BASE_URL + "/about-pic.png",
   description:
     "I qualified for the Indian National Mathematical Olympiad (INMO) with a rank of 26 in Andhra Pradesh in 2022, and I consecutively qualified for the Regional Mathematical Olympiad (RMO) from 2019 to 2022. Additionally, I secured 4th place in the Summer Of Innovation (Hack the Bit) organized by the Coding Club at IIT Dharwad in 2023.",
   cards: [
-    { icon: "/work.png", title: "Work", text: "--- <br /> ------" }, // You can use HTML in text
+    {
+      icon: import.meta.env.BASE_URL + "/work.png",
+      title: "Work",
+      text: "--- <br /> ------",
+    }, // You can use HTML in text
     {
       iconName: "BiSolidGraduation",
       title: "Education",
@@ -80,38 +84,74 @@ export const experienceData = {
     {
       name: "Artificial Intelligence",
       level: "Experienced",
-      icon: "/cert.png",
+      icon: import.meta.env.BASE_URL + "/cert.png",
     },
-    { name: "DSA", level: "Experienced", icon: "/cert.png" },
-    { name: "Cyber Security", level: "Basic", icon: "/cert.png" },
-    { name: "Cloud Computing", level: "Basic", icon: "/cert.png" },
-    { name: "Web Dev", level: "Intermediate", icon: "/cert.png" },
-    { name: "Reinforcement Learning", level: "Basic", icon: "/cert.png" },
+    {
+      name: "DSA",
+      level: "Experienced",
+      icon: import.meta.env.BASE_URL + "/cert.png",
+    },
+    {
+      name: "Cyber Security",
+      level: "Basic",
+      icon: import.meta.env.BASE_URL + "/cert.png",
+    },
+    {
+      name: "Cloud Computing",
+      level: "Basic",
+      icon: import.meta.env.BASE_URL + "/cert.png",
+    },
+    {
+      name: "Web Dev",
+      level: "Intermediate",
+      icon: import.meta.env.BASE_URL + "/cert.png",
+    },
+    {
+      name: "Reinforcement Learning",
+      level: "Basic",
+      icon: import.meta.env.BASE_URL + "/cert.png",
+    },
   ],
   libraries: [
-    { name: "Transformers", level: "Intermediate", icon: "/cert.png" },
-    { name: "Scikit-learn", level: "Intermediate", icon: "/cert.png" },
-    { name: "C, C++, Python", level: "Intermediate", icon: "/cert.png" },
-    { name: "Git, BASH", level: "Intermediate", icon: "/cert.png" },
+    {
+      name: "Transformers",
+      level: "Intermediate",
+      icon: import.meta.env.BASE_URL + "/cert.png",
+    },
+    {
+      name: "Scikit-learn",
+      level: "Intermediate",
+      icon: import.meta.env.BASE_URL + "/cert.png",
+    },
+    {
+      name: "C, C++, Python",
+      level: "Intermediate",
+      icon: import.meta.env.BASE_URL + "/cert.png",
+    },
+    {
+      name: "Git, BASH",
+      level: "Intermediate",
+      icon: import.meta.env.BASE_URL + "/cert.png",
+    },
   ],
 };
 
 export const projectsData = [
   {
     title: "KOKO",
-    image: "/mis.jpg",
+    image: import.meta.env.BASE_URL + "/mis.jpg",
     githubUrl: "https://github.com/Viswazgummadi/Project_K",
     description: "A brief description about KOKO project.", // Add descriptions
   },
   {
     title: "Fashion AI",
-    image: "/dress.png",
+    image: import.meta.env.BASE_URL + "/dress.png",
     githubUrl: "https://github.com/Viswazgummadi/Fashion-Suggestor",
     description: "An AI that suggests fashion based on inputs.",
   },
   {
     title: "Movie AI",
-    image: "/Netflix-Logo.png",
+    image: import.meta.env.BASE_URL + "/Netflix-Logo.png",
     githubUrl: "https://github.com/lakshmannarendra/Movie-Recommendation",
     description: "Movie recommendation system using AI.",
   },
